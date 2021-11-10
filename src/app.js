@@ -1,9 +1,10 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express();
 const router = express.Router();
 
-const index = require('./routes/index');
+const index = require('./routes/index-route');
 
 app.use('/', index);
 

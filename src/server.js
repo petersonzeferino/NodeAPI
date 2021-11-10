@@ -24,7 +24,7 @@ server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening)
 
-console.log('Started API in port' + port);
+console.log('Started API in port ' + port);
 
 function normalizePort(val){
     const port = parseInt(val, 10);

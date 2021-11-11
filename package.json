@@ -2,10 +2,9 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/server.js",
   "scripts": {
     "start": "node ./bin/server.js",
-    "build": "nodemon ./bin/server.js",
     "dev": "nodemon ./bin/server.js"
   },
   "keywords": [],
